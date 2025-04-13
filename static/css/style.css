@@ -1,0 +1,24 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 50px;
+    color: #003366;
+}
+.logo {
+    max-width: 180px;
+    margin-bottom: 20px;
+}
+.tagline {
+    font-size: 24px;
+    margin: 20px 0;
+}
+.message {
+    font-size: 18px;
+    color: #333333;
+}
+.footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #999999;
+}
