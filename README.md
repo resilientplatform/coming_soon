@@ -44,6 +44,9 @@ This Coming Soon page is the beginning of our journey:
 resilient_coming_soon/
 ├── app.py
 ├── README.md
+├── site.webmanifest
+├── sitemap.xml
+├── requirements.txt
 ├── templates/
 │   └── index.html
 └── static/
