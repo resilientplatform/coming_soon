@@ -5,6 +5,15 @@ body {
     padding: 50px;
     color: #003366;
 }
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}  
+.tagline {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 1em;
+}
 .logo {
     max-width: 180px;
     margin-bottom: 20px;

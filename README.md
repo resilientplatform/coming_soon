@@ -45,7 +45,7 @@ resilient_coming_soon/
 ├── app.py
 ├── README.md
 ├── templates/
-│   └── coming_soon.html
+│   └── index.html
 └── static/
     ├── css/
     │   └── style.css
