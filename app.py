@@ -4,6 +4,10 @@ from flask import Flask, render_template, send_from_directory
 
 app = Flask(__name__)
 
+@app.route('/sitemap.xml')
+def sitemap():
+    return send_from_directory('.', 'sitemap.xml', mimetype='application/xml')
+
 @app.route('/site.webmanifest')
 def manifest():
     return send_from_directory('.', 'site.webmanifest')
