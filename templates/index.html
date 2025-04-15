@@ -15,30 +15,53 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-DZ3QVNY7LF');
-    </script>    
+    </script>   
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style> 
 </head>
 <body>
-    <img src="{{ url_for('static', filename='images/resilient_logo.png') }}" alt="Resilient AI Logo" class="logo">
-    <div class="hero">
-        <h1>Where human-first culture and sustainable innovation meet — empowering forward thinkers with human-guided, principled AI.</h1>
-        <p class="tagline">
-          We create AI to empower people — not replace them.<br>
-          It’s time the people shaping the future had systems designed for them.
-        </p>
-    </div>      
-    <div class="message">We’re building something meaningful. Join us on the journey.</div>
-    <div class="transparency">
-        <p class="logo-info">
-            <em>Our logo—a Chinese lantern—was thoughtfully generated with help from ChatGPT. It reflects our belief that technology should guide with care, not dominate with noise. A quiet light. A shared path. A resilient future.</em>
-        </p>    
-        <p class="founded-by">
-            Founded by <strong>Patrick Peña</strong> — crafted with care, conviction, and a vision for a more human future.
-        </p>    
-    </div>
-    <div class="footer">
-        <p class="copyright">
+    <div class="page-container">
+        <header>
+            <img src="{{ url_for('static', filename='images/resilient_ai_banner.png') }}" alt="Resilient AI Banner" class="banner">
+        </header>        
+        <main>
+            <div class="hero">
+                <h1>Where human-first culture and sustainable innovation meet — empowering forward thinkers with human-guided, principled AI.</h1>
+                <p class="tagline">
+                We create AI to empower people — not replace them.<br>
+                It’s time the people shaping the future had systems designed for them.
+                </p>
+            </div>      
+            <div class="message">We’re building something meaningful. Join us on the journey.</div>
+            <div class="transparency">
+                <p class="founded-by">
+                    Founded by <strong>Patrick Peña</strong> — crafted with care, conviction, and a vision for a more human future.
+                </p>    
+            </div>
+        </main>    
+        <footer class="site-footer">
+            <figure class="symbol-block">
+            <img src="{{ url_for('static', filename='images/resilient_ai_symbol.png') }}" 
+                alt="Resilient AI Symbol" 
+                class="symbol" />
+            <figcaption class="symbol-info">
+                <em>
+                Our symbol—a Chinese lantern—was thoughtfully generated with help from ChatGPT.
+                It reflects our belief that technology should guide with care, not dominate with noise.
+                A quiet light. A shared path. A resilient future.
+                </em>
+            </figcaption>
+            </figure>
+        
+            <p class="copyright">
             © {{ current_year }} Resilient AI™, created by Patrick Peña. All rights reserved.
-        </p>          
+            </p>
+        </footer>
     </div>
 </body>
 </html>

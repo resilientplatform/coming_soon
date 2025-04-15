@@ -43,6 +43,7 @@ This Coming Soon page is the beginning of our journey:
 
 resilient_coming_soon/
 ├── app.py
+├── render.yaml
 ├── README.md
 ├── site.webmanifest
 ├── sitemap.xml
@@ -53,7 +54,9 @@ resilient_coming_soon/
     ├── css/
     │   └── style.css
     └── images/
-        └── resilient_logo.png
+        └── resilient_ai_symbol.png
+        └── resilient_ai_banner.png        
+        └── resilient_ai_banner_metadata.json        
     └── ico/
         └── android-chrome-192x192.png
         └── android-chrome-512x512.png
