@@ -35,7 +35,7 @@ This Coming Soon page is the beginning of our journey:
 - Python 3.11+
 - Flask
 - HTML / CSS (Minimal)
-- Hosted on Render
+- Hosted on fly.io
 
 ---
 
@@ -56,6 +56,10 @@ resilient_coming_soon/
 ├── site.webmanifest
 ├── sitemap.xml
 ├── requirements.txt
+├── .dockerignore
+├── .github/workflows/fly-deploy.yml
+├── Dockerfile
+├── fly.toml
 ├── templates/
 │   └── index.html
 └── static/
@@ -64,8 +68,10 @@ resilient_coming_soon/
     └── images/
         └── resilient_ai_symbol.png
         └── resilient_ai_banner.png        
+        └── resilient_ai_linkedin_banner.png                
         └── resilient_ai_social_card.png
         └── resilient_ai_banner_metadata.json                
+        └── resilient_ai_linkedin_banner_metadata.json                        
         └── resilient_ai_social_card_metadata.json                
     └── ico/
         └── android-chrome-192x192.png
