@@ -56,7 +56,9 @@ resilient_coming_soon/
     └── images/
         └── resilient_ai_symbol.png
         └── resilient_ai_banner.png        
-        └── resilient_ai_banner_metadata.json        
+        └── resilient_ai_social_card.png
+        └── resilient_ai_banner_metadata.json                
+        └── resilient_ai_social_card_metadata.json                
     └── ico/
         └── android-chrome-192x192.png
         └── android-chrome-512x512.png
