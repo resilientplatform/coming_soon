@@ -35,7 +35,15 @@ This Coming Soon page is the beginning of our journey:
 - Python 3.11+
 - Flask
 - HTML / CSS (Minimal)
-- Hosted soon via Render or similar
+- Hosted on Render
+
+---
+
+## License & Stewardship Notice
+
+This repository is currently public for transparency and learning purposes, but no open-source license has been applied yet. All rights are reserved to ensure intentional development and alignment with the values of Resilient AI™.
+
+If you're interested in contributing, collaborating, or understanding the direction of this work, feel free to reach out. This project is being shaped with care — and will welcome thoughtful builders when the time is right.
 
 ---
 
