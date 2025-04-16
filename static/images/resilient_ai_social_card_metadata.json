@@ -1,7 +1,7 @@
 {
-  "title": "Resilient AI™ Web Banner",
+  "title": "Resilient AI™ Social Card",
   "artist": "Patrick Peña",
-  "description": "Homepage banner for Resilient AI — clean, human-first design. Created in Photopea.",
+  "description": "Card for the Resilient AI homepage — minimal, human-first. Created in Photopea.",
   "copyright": "© 2025 Resilient AI™. All rights reserved.",
   "keywords": [
     "Resilient AI",
@@ -12,10 +12,10 @@
     "tech for good"
   ],
   "dimensions": {
-    "width": 1920,
-    "height": 120
+    "width": 1200,
+    "height": 630
   },
   "file_format": "PNG",
   "created": "2025-04-15",
-  "usage": "Web homepage banner"
+  "usage": "Web social card"
 }
