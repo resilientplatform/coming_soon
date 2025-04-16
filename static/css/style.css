@@ -4,13 +4,16 @@ html, body {
 }
 
 body {
-    background-color: #ffffff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    color: #3d4853;
-    padding: 0;
+    background-color: #ffffff;    
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;    
+    line-height: 1.6;
+    font-size: 16px;
+    color: #333;
+    padding: 0;    
 }
-
+  
 .page-container {
     display: flex;
     flex-direction: column;
@@ -24,12 +27,23 @@ main {
     justify-content: space-between;
 }
 
-.hero h1 {
+h1, h2, h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+ }
+  
+/* .hero h1 {
     font-size: 2.5rem;
     font-weight: bold;
-}
+} */
 
-.tagline {
+h4, .subtitle, .tagline {
+    font-weight: 300;
+    font-style: italic;
+}
+  
+/* .tagline {
     font-size: 1.25rem;
     font-weight: 500;
     margin-top: 1em;
@@ -38,7 +52,7 @@ main {
 .tagline {
     font-size: 24px;
     margin: 20px 0;
-}
+} */
 
 .message {
     font-size: 18px;
@@ -53,12 +67,23 @@ main {
     margin-top: auto;
 }
 
+/* footer {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 300;
+    font-size: 14px;
+    color: #777;
+  }
+   */
 .site-footer {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 300;
+    font-size: 14px;
+    color: #777;
     text-align: center;
     padding: 2rem 1rem;
     background-color: #0a0a0a;
-    color: #ccc;
-    font-size: 0.9rem;
+    /* color: #ccc; */
+    /* font-size: 0.9rem; */
 }
 
 .symbol-block {
