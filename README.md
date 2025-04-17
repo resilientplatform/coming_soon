@@ -80,3 +80,13 @@ resilient_coming_soon/
         └── favicon-32x32.png
         └── favicon-16x16.png
         └── favicon.icon
+
+---
+
+## Architecture
+## Human-First Infrastructure
+
+We’ve intentionally designed the foundation of Resilient AI™ to reflect our values — scalable, quiet, ethical, and purpose-aligned.
+
+> Read our full architecture philosophy:  
+> [**Human-First AI Infrastructure →**](docs/human-first-ai-infrastructure.md)
