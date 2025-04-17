@@ -83,10 +83,6 @@ resilient_coming_soon/
 
 ---
 
-## Architecture
-## Human-First Infrastructure
+> [Read about our human-first AI infrastructure →](docs/human-first-ai-infrastructure.md)
 
-We’ve intentionally designed the foundation of Resilient AI™ to reflect our values — scalable, quiet, ethical, and purpose-aligned.
-
-> Read our full architecture philosophy:  
-> [**Human-First AI Infrastructure →**](docs/human-first-ai-infrastructure.md)
+> [Read about the initial perception and reception →](docs/human-first-ai-reception.md)
